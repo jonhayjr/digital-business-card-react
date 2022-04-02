@@ -165,6 +165,9 @@ img {
    margin: 0;
    background-color: #c3c6c219;
    border-radius: 10px;
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+   -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+   -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 }
 
 .social-link:hover {
