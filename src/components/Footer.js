@@ -4,10 +4,10 @@ import { faTwitter, faFacebook, faInstagram, faGithub} from '@fortawesome/free-b
 const Footer = () => {
     return (
         <footer className="footer">
-            <a href="https://twitter.com/JonHaymaker" className="social-link" target="_blank"><FontAwesomeIcon icon={faTwitter} className="social-icon"/></a>
-            <a href="https://www.facebook.com/bigfootjon" className="social-link" target="_blank"><FontAwesomeIcon icon={faFacebook} className="social-icon"/></a>
-            <a href="https://www.instagram.com/jonhaymaker/" className="social-link" target="_blank"><FontAwesomeIcon icon={faInstagram} className="social-icon"/></a>
-            <a href="https://github.com/jonhayjr" className="social-link" target="_blank"><FontAwesomeIcon icon={faGithub} className="social-icon"/></a>
+            <a href="https://twitter.com/JonHaymaker" className="social-link twitter" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} className="social-icon"/></a>
+            <a href="https://www.facebook.com/bigfootjon" className="social-link facebook" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} className="social-icon"/></a>
+            <a href="https://www.instagram.com/jonhaymaker/" className="social-link instagram" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className="social-icon"/></a>
+            <a href="https://github.com/jonhayjr" className="social-link github" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className="social-icon"/></a>
         </footer>
     )
 }

@@ -11,7 +11,7 @@ const Layout = () => {
     return (
         <div className="container">
             <div className="card">
-                <Image src={Headshot} className="card-img"/>
+                <Image src={Headshot} alt='Headshot of Jon Hay' className="card-img"/>
                 <div className="card-body">
                     <Info/>
                     <About/>
