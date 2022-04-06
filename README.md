@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Digital Business Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a digital business card that was created using React and is a project from Scrimba's Frontend Developer Career Path.
+
+Click [here](https://digital-business-card-jh.herokuapp.com/) for a preview.
 
 ## Available Scripts
 
